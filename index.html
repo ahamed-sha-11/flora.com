@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flora.</title>
+    <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,300;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <section class="header">
+      <div class="nav-links">
+        <h1>FLORA.</h1>
+        <ul id="navBar">
+          <li ><i class="fa-regular fa-circle-xmark fa-nav close" onclick="hideMenu()"></i></li >
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="#order">Order</a></li>
+          <li><a href="./index2.html">Flora?</a></li>
+          <li><a href="#foot">contact</a></li>
+        </ul>
+          <i class="fa-sharp fa-solid fa-bars fa-nav" onclick="showMenu()"></i >
+      </div>
+      
+      <div class="home-content">
+        <p>“You’re only here for a short visit. Don’t <br /> hurry, don’t worry. And be sure to smell the <br />flowers along the way.”</p>
+        <a href="./index2.html">Explore <i class="fa-duotone fa-angles-right fa"></i></a>
+      </div>
+    </section>
+    <section class="order-content" id="order">
+      <div class="cards">
+        <img src="./bq1.jpg" alt="" />
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text
+        </p>
+        <a href="#">order <i class="fa-regular fa-snowflake"></i></a></a>
+      </div>
+      <div class="cards">
+        <img src="./bq2.jpg" alt="" />
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text
+        </p>
+        <a href="#">order <i class="fa-regular fa-snowflake"></i></a></a>
+      </div>
+      <div class="cards">
+        <img src="./bq3.jpg" alt="" />
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text
+        </p>
+        <a href="#">order <i class="fa-regular fa-snowflake"></i></a></a>
+      </div>
+      
+    </section>
+    <section class="footer" id="foot">
+      <h1>FLORA .</h1>
+        <div class="social">
+          <a href="https://www.instagram.com/ahamed_sha_jr/"><i class="fa-brands fa-instagram">instagram</i></a>
+          <a href="mailto:ahamedsulthan2004@gmail.com "><i class="fa-solid fa-envelope">  mail </i> </a>
+          <a href="https://github.com/ahamed-sha-11/ahamed-sha-11"><i class="fa-brands fa-github">
+            github
+          </i></a>
+        </div>
+        <p> &copy; 2022</p>
+      </section>
+    <!--     JAVASCRIPTU  -->
+    <script type="text/javascript" charset="utf-8">
+      var navBar = document.getElementById("navBar");
+      function showMenu(){
+        navBar.style.right="0";
+      }
+      function hideMenu(){
+        navBar.style.right="-500px";
+      }
+    </script>
+  </body>
+</html>

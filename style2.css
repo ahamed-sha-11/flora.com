@@ -1,0 +1,110 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.header{
+  background-image: linear-gradient(rgba(2,30,7,0.5),rgba(2,30,7,0.5)),url('./bg2.png');
+}
+.home-content{
+  font-size: 2.5em;
+  text-decoration: teal overline;
+  letter-spacing: 8px;
+}
+ .about{
+   min-height: 100vh;
+   width: 100%;
+   text-align: left;
+   background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.7)),url(' ./abg.png');
+   color: #dfd;
+   background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+ }
+ .about h1{
+   margin: 0;
+   font-size: 2em;
+   font-weight: 400;
+   text-decoration: teal overline;
+   letter-spacing: 8px;
+   padding: 5%;
+ }
+  .about p{
+    width: 70%;
+    margin:  0% 15% 0 5%;
+    word-spacing: 28px;
+    line-height: 30px;
+  }
+  .pg-content{
+    min-height: 100vh;
+    
+  }
+  .explained {
+    text-align: center;
+    margin: 5% 0;
+  }
+  .explained h1{
+    font-size: 2em;
+    color: lavender;
+    padding: 25% 0 0 0;
+  }
+  .explained p{
+    font-size: 1.2em;
+    width: 90%;
+    margin: 0 5%;
+    word-spacing: 15px;
+    line-height: 30px;
+    min-height: 75vh;
+    transform: translatey(25%);
+  }
+  
+  .pg-content .mood{
+     background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.7)),url(' ./stag.jpg');
+     color: #dfd;
+     background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 5px pink solid;
+  }
+  .pg-content .love{
+     background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.7)),url(' ./love.png');
+     color: #dfd;
+     background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 5px rosybrown solid;
+  }
+  .pg-content .bliss{
+     background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.7)),url(' ./bliss.jpg');
+     color: #dfd;
+     background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 5px rgb(179, 102, 159) solid;
+    margin-bottom: 0;
+  }
+
+@media (max-width:750px){
+  .about{
+    min-height: 100vh;
+    width: 100%;
+    text-align: center;
+    
+  }
+  .about h1{
+    margin: 0  8%;
+    font-size: 2em;
+    font-weight: 400;
+    text-decoration: teal overline;
+    letter-spacing: 8px;
+    padding: 5%;
+  }
+   .about p{
+     width: 90%;
+     margin: 0 5%;
+     word-spacing: 18px;
+     line-height: 30px;
+   }
+   
+
+}
+  
